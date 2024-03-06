@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <title>Document</title>
+    <script type="module" crossorigin src="/Images-Search/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/Images-Search/assets/vendor-483db976.js">
+    <link rel="stylesheet" href="/Images-Search/assets/vendor-a51daae5.css">
+    <link rel="stylesheet" href="/Images-Search/assets/index-ecaefad8.css">
+  </head>
+  <body>
+    <header>New Test</header>
+    <main>
+      <div class="container">
+        <form class="form">
+          <input
+            class="form-input dark-theme"
+            type="text"
+            name="text"
+            autofocus
+            autocomplete="off"
+            placeholder="Search images..."
+          /><button class="form-button dark-theme" type="submit" name="submit">
+            Search
+          </button>
+        </form>
+        <div class="toggle-switch">
+          <label class="switch-label dark-theme">
+            <input type="checkbox" class="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <ul class="gallery-container"></ul>
+        <div class="loader-wrapper">
+          <p class="text-loader">Loading images, please wait...</p>
+          <button class="loader-button dark-theme" type="button">
+            Load more
+          </button>
+          <button class="button-up dark-theme" type="button">Up</button>
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>
